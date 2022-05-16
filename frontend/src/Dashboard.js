@@ -361,7 +361,7 @@ export default class Dashboard extends Component {
               Cancel
             </Button>
             <Button
-              disabled={this.state.patient_name === '' || this.state.drug_name === '' || this.state.dosage === '' || this.state.frequency === '' || this.state.adherence === '' || this.state.reason === ''}
+              disabled={this.state.drug_name === '' || this.state.dosage === '' || this.state.frequency === '' || this.state.adherence === ''}
               onClick={(e) => this.addDrug()} color="primary" autoFocus>
               Add Drug
             </Button>
